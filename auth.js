@@ -51,6 +51,7 @@ async function signIn() {
         if (data) {
             
             alert('Welcome')
+            window.location.href = '/dashboard.html'
             console.log(data)
             
         }
